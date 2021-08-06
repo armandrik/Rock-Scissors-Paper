@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(-45deg, #fc354c, #0abfbc);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+button {
+    display: block;
+    width: 55%;
+    height: 10vh;
+    position: relative;
+    left: 220px;
+    top: 30px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: rgb(212, 58, 58);
+    font-size: x-large;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+button:hover {
+    box-shadow: 0 0 30px 10px aqua;
+    cursor: pointer;
+    color: aqua;
+}
+
+div>h3 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    margin-left: 35%;
+    background: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    margin-top: 2%;
+    width: 30%;
+    color: white;
+    box-shadow: 0 0 10px 5px aqua;
+}
+
+#player-score {
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 20px;
+    background: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    width: 20%;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px 5px aqua;
+}
+
+#pc-score {
+    margin-top: 150px;
+    margin-right: 50px;
+    float: right;
+    background: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    width: 20%;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px 5px aqua;
+}
+
+button:nth-child(1) {
+    background: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+button:nth-child(2) {
+    background-image: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+button:nth-child(3) {
+    background-image: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
